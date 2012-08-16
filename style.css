@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+td, th, p, li {
+    font-size: 14px;
+}
+
+.forum-tabs li a {
+    width: 100px;
+}
+
+#header-nav ul {
+    text-transform: capitalize;
+}
+
+#header-nav li {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.smallfont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #444;
+}
+
+tbody tr:first-child + tr td + td.alt2 > div.smallfont {
+    margin-bottom: 20px;
+}
+
+tbody tr:first-child + tr td + td.alt2 > div.smallfont > strong {
+    font-size: 24px;
+}
+
+.tborder {
+    border: solid 1px transparent;
+}
+
+td + .relative.alt1, td + .relative.alt2 {
+    border-left: solid 1px #ccc;
+}
+
+.quotearea {
+    border: inset 1px #fff;
+    border-radius: 4px;
+}
+
+.quotearea div {
+    font-style: normal;
+}
+
+hr {
+    display: none;
+}
+
+.thead {
+    background: #ddd;
+    color: #678;
+}
+
+.thead a {
+    color: #678;
+}
+
