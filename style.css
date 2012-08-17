@@ -1,10 +1,10 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
     line-height: 1.4;
 }
 
 td, th, p, li {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .forum-tabs li a {
@@ -16,12 +16,12 @@ td, th, p, li {
 }
 
 #header-nav li {
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
 }
 
 .smallfont {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #444;
 }
