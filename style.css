@@ -64,3 +64,25 @@ hr {
     color: #678;
 }
 
+#header, #header-user, #footer, #footer-nav {
+    background-image: none;
+}
+
+#header-nav {
+    margin-top: -15px;
+    padding-top: 0;
+}
+
+#header-logo {
+    margin-top: -50px;
+}
+
+#header-user {
+    background-color: transparent;
+    color: #333;
+}
+
+.user-stats a, .user-stats.unread-pms a:hover {
+    color: #333;
+}
+
