@@ -68,7 +68,7 @@ hr {
     color: #678;
 }
 
-#header, #header-user, #footer, #footer-nav {
+#header-user, #footer, #footer-nav {
     background-image: none;
 }
 
@@ -80,6 +80,7 @@ hr {
     color: #fff;
     font-style: italic;
     text-shadow: 0 -2px 0 rgba(0,0,0,.4);
+    height: auto;
 }
 
 #header {
@@ -89,6 +90,8 @@ hr {
     padding-bottom: 10px;
     padding-left: 0;
     background-color: #333;
+    background-image: -webkit-linear-gradient(top, #222, #444);
+    border-bottom: solid 2px #999;
 }
 
 #header:after {
@@ -113,7 +116,7 @@ hr {
 
 #header-nav li a {
     color: #ccc;
-    text-shadow: 0 -2px 0 rgba(0,0,0,1);
+    text-shadow: 0 -2px 0 rgba(0,0,0,.7);
 }
 
 #header-nav li a b {
@@ -150,3 +153,14 @@ hr {
     color: #eee;
 }
 
+.forum-tabs li {
+    background-image: none;
+}
+
+.forum-tabs li a {
+    text-transform: capitalize;
+}
+
+.forum-tabs li.activetab {
+    padding-right: 0;
+}
