@@ -12,7 +12,7 @@ td, th, p, li {
 }
 
 .forum-tabs li a {
-    width: 100px;
+    text-transform: capitalize;
 }
 
 #header-nav ul {
@@ -155,12 +155,20 @@ hr {
 
 .forum-tabs li {
     background-image: none;
-}
-
-.forum-tabs li a {
-    text-transform: capitalize;
+    padding-right: 0;
 }
 
 .forum-tabs li.activetab {
     padding-right: 0;
 }
+
+.forum-tabs li.child {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.forum-tabs li.child a {
+    padding-left: 5px;
+    font-size: 12px;
+}
+
